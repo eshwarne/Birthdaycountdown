@@ -1,0 +1,36 @@
+<style type="text/css">
+	span{
+		display: block;
+		background-color: white;
+	}
+	body{
+		background-color:teal;
+
+	}
+	div{
+		margin: 0 auto;
+		position: relative;
+		left:20%;
+		top:180px;
+	}
+	.disp{
+		box-shadow: 0 0 20px #9ecaed;
+		background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 35%, rgba(0,212,255,1) 100%);
+		display: block;
+		float: left;
+		border:2px solid #9ecaed;
+		height: 200px;
+		width:200px;
+		font-size: 30pt;
+		text-align: center;
+		padding:10px;
+		padding-top: 50px;
+		padding-bottom: 0px;
+		-webkit-transition: width 2s;
+		transition: width 2s;
+	}
+	.disp:hover{
+		width: 300px;
+	}
+</style>
